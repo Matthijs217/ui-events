@@ -81,3 +81,12 @@ onFocus.addEventListener('focus', onFocused);
 function onFocused() {
   onFocus.classList.toggle('isFocused')
 }
+
+// TYPE 6
+
+let onClick = document.querySelector('a:nth-of-type(6)')
+onClick.addEventListener('click', changeText);
+
+function changeText() {
+  onClick.textContent = 'Fixed!';
+}
