@@ -34,9 +34,33 @@ interaction.addEventListener('animationend', jumpHandler)
 // Stap 3: (Callback functie met) classList (.toggle(), .add(), etc.)
 // bibberLink.classList.toggle...
 
+
+
+// TYPE 1
+
 let bgColor = document.querySelector('a:nth-of-type(1)')
 bgColor.addEventListener('click', changeBgColor)
 
 function changeBgColor() {
   bgColor.classList.toggle('frontendbg')
+}
+
+// TYPE 2
+
+let changeSize = document.querySelector('a:nth-of-type(2)')
+changeSize.addEventListener("keydown", logKey);
+
+function logKey(e) {
+  changeSize.classList.toggle('changeSize')
+  console.log(e.key);
+}
+
+// TYPE 3
+
+let changeSize = document.querySelector('a:nth-of-type(2)')
+changeSize.addEventListener("keydown", logKey);
+
+function logKey(e) {
+  changeSize.classList.toggle('changeSize')
+  console.log(e.key);
 }
