@@ -111,3 +111,9 @@ a:nth-of-type(12) {
     opacity: 0%;
   }
 }
+
+.isFocused {
+  background-color: white;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}

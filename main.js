@@ -72,3 +72,12 @@ doubleClick.addEventListener('dblclick', onDoubleClick);
 function onDoubleClick() {
   doubleClick.classList.toggle('doubleClick')
 }
+
+// TYPE 5
+
+let onFocus = document.querySelector('a:nth-of-type(5)')
+onFocus.addEventListener('focus', onFocused);
+
+function onFocused() {
+  onFocus.classList.toggle('isFocused')
+}
