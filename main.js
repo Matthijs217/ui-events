@@ -57,10 +57,18 @@ function logKey(e) {
 
 // TYPE 3
 
-let changeSize = document.querySelector('a:nth-of-type(2)')
-changeSize.addEventListener("keydown", logKey);
+let hoverOn = document.querySelector('a:nth-of-type(3)')
+hoverOn.addEventListener("mouseover", mouseHover);
 
-function logKey(e) {
-  changeSize.classList.toggle('changeSize')
-  console.log(e.key);
+function mouseHover() {
+  hoverOn.classList.toggle('mouseOver')
+}
+
+// TYPE 3
+
+let  = document.querySelector('a:nth-of-type(3)')
+.addEventListener("mouseover", mouseHover);
+
+function mouseHover() {
+  .classList.toggle('mouseOver')
 }
