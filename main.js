@@ -64,11 +64,11 @@ function mouseHover() {
   hoverOn.classList.toggle('mouseOver')
 }
 
-// TYPE 3
+// TYPE 4
 
-let  = document.querySelector('a:nth-of-type(3)')
-.addEventListener("mouseover", mouseHover);
+let doubleClick = document.querySelector('a:nth-of-type(4)')
+doubleClick.addEventListener('dblclick', onDoubleClick);
 
-function mouseHover() {
-  .classList.toggle('mouseOver')
+function onDoubleClick() {
+  doubleClick.classList.toggle('doubleClick')
 }

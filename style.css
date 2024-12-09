@@ -96,3 +96,18 @@ a:nth-of-type(12) {
 .mouseOver {
   transform: rotate(90deg);
 }
+
+.doubleClick {
+  transition: 2s ease;
+  animation: Opacity 2s;
+  background-color: pink;
+}
+
+@keyframes Opacity {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
